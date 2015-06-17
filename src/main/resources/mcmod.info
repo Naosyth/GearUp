@@ -1,0 +1,16 @@
+[
+{
+  "modid": "gearup",
+  "name": "Gear Up",
+  "description": "Customizable modular armor",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Naosyth"],
+  "credits": "Naosyth",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
