@@ -1,10 +1,11 @@
 package com.naosyth.gearup.item
 
+import com.naosyth.gearup.common.lib.LibItemNames
 import cpw.mods.fml.common.registry.GameRegistry
 import net.minecraft.init.Items
 import net.minecraft.item.ItemStack
 
-class ItemReinforcedLeather extends ItemBase ("reinforcedLeather", "placeholder") {
+class ItemReinforcedLeather extends ItemBase (LibItemNames.ReinforcedLeather, "placeholder") {
   override def registerRecipes(): Unit = { // Question: Is it weird that I am using override?
     val string = new ItemStack(Items.string)
     val leather = new ItemStack(Items.leather)
