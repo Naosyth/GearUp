@@ -5,5 +5,8 @@ import cpw.mods.fml.common.registry.GameRegistry
 
 object ItemRegistry {
   val reinforcedLeather = new ItemReinforcedLeather
-  GameRegistry.registerItem(reinforcedLeather, reinforcedLeather.getUnlocalizedName)
+  
+  def register() {
+    GameRegistry.registerItem(reinforcedLeather, reinforcedLeather.getUnlocalizedName)
+  }
 }

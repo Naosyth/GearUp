@@ -19,7 +19,7 @@ object GearUp {
   def preInit(e: FMLPreInitializationEvent): Unit = {
     logger.info("GearUp - PreInit")
 
-    val test = ItemRegistry // Question: This is stupid. What's the right way to do this?
+    ItemRegistry.register()
   }
 
   @Mod.EventHandler

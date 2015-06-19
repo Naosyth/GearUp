@@ -22,6 +22,5 @@ abstract class ItemBase extends Item {
   }
 
   def registerRecipes(): Unit = {
-
   }
 }
