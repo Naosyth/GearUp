@@ -21,6 +21,5 @@ abstract class ItemBase extends Item {
     setCreativeTab(GearUp.creativeTab)
   }
 
-  def registerRecipes(): Unit = {
-  }
+  def registerRecipes(): Unit
 }
