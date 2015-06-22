@@ -1,4 +1,4 @@
-package com.naosyth.gearup.item
+package com.naosyth.gearup.common.item
 
 import com.naosyth.gearup.common.{GearUp, ModInformation}
 import net.minecraft.item.Item

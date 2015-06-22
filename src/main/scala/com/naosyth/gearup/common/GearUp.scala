@@ -1,6 +1,6 @@
 package com.naosyth.gearup.common
 
-import com.naosyth.gearup.common.init.ItemRegistry
+import com.naosyth.gearup.common.init.{RendererRegistry, BlockRegistry, ItemRegistry}
 import cpw.mods.fml.common.Mod
 import cpw.mods.fml.common.event.{FMLInitializationEvent, FMLPostInitializationEvent, FMLPreInitializationEvent}
 import org.apache.logging.log4j.LogManager
@@ -20,6 +20,8 @@ object GearUp {
     logger.info("GearUp - PreInit")
 
     ItemRegistry.register()
+    BlockRegistry.register()
+    RendererRegistry.register()
   }
 
   @Mod.EventHandler

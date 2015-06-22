@@ -1,2 +1,5 @@
-item.gearup.reinforcedLeather.name=Reinforced Leather
 itemGroup.gearup=Gear Up
+
+item.gearup.reinforcedLeather.name=Reinforced Leather
+
+tile.gearup.cauldronHanger.name=Cauldron Hanger
